@@ -44,5 +44,15 @@ function yourName(name) {
 
 var name = prompt('What is your name?');
 yourName(name);
+
+
+//Declare a function that takes no arguments but prints "I am a great function" to the console. 
+//Try running it after it has been declared.
+
+function greatFunction() {
+	console.log('I am a great function')
+}
+
+greatFunction()
 */
 
