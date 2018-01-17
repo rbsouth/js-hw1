@@ -22,17 +22,27 @@ console.log(a + b);
 //If it is not alert the user of what the value was and that it was greater than 100.
 
 function question1(answer1) {
-	var yourNumber = answer1
 	if (answer1 < 100) {
 		alert('Your number is less than 100');
 	} else if	(answer1 === '100'){
 		alert('Your number is 100');
 	} else {
-		alert('Your number is ' + yourNumber +' which is greater than 100');
+		alert('Your number is ' + answer1 +' which is greater than 100');
 	}
 }
 
 var number = prompt('What is your favorite number?');
 question1(number)
+
+
+//Declare a function that takes a name as an argument and tells the user what name they've entered. 
+//Try running it after it has been declared.
+
+function yourName(name) {
+	alert('Your name is ' + name + '.');
+}
+
+var name = prompt('What is your name?');
+yourName(name);
 */
 
